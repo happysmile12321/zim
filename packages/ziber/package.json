@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "zim-AI": "workspace:^",
+    "zim-geco": "workspace:^",
+    "zim-rpc": "workspace:^",
+    "zps": "workspace:^"
+  }
 }

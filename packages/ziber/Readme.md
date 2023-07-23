@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ziber is zim better for zim.
+ziber is zim backend for zim.
 
 ## Installation
 

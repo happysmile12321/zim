@@ -16,6 +16,15 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
+      zimcore:
+        specifier: workspace:^
+        version: link:../zimcore
+      zps:
+        specifier: workspace:^
+        version: link:../zps
+      zui:
+        specifier: ^1.10.0
+        version: 1.10.0
     devDependencies:
       '@types/react':
         specifier: ^18.2.15
@@ -33,7 +42,20 @@ importers:
         specifier: ^4.4.6
         version: 4.4.6
 
-  packages/ziber: {}
+  packages/ziber:
+    dependencies:
+      zim-AI:
+        specifier: workspace:^
+        version: link:../zim-AI
+      zim-geco:
+        specifier: workspace:^
+        version: link:../zim-geco
+      zim-rpc:
+        specifier: workspace:^
+        version: link:../zim-rpc
+      zps:
+        specifier: workspace:^
+        version: link:../zps
 
   packages/zim-AI: {}
 
@@ -15347,6 +15369,10 @@ packages:
     optionalDependencies:
       commander: 9.5.0
     dev: true
+
+  /zui@1.10.0:
+    resolution: {integrity: sha512-UO0EbuIm1iYVjFPpt14IXmNnDEnqGZ/11SKWyaYkgyTgr7NijROgPlWXJdc6NnrhGuHhVWKHjmGXXb+M+1deLg==}
+    dev: false
 
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}

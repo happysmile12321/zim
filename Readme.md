@@ -35,6 +35,12 @@ zim is an try make reduce4's best ideas to the world.
 - ant design
   - zui design goal
 
+### architecture graph
+
+#### v1
+
+![architecture v1](./assets/architecture-v1.png)
+
 ## development
 
 ### zui
