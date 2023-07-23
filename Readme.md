@@ -21,7 +21,7 @@
 
 # Ability
 
-- [ ] (langchain)(AI)
+- [ ] langchain(AI)
 - [ ] editor(editor)
 - [x] pdf(file render)
 
