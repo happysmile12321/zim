@@ -15,3 +15,22 @@ we, zimer, comes from an organization named reduce4.
 this organization has defined a life style of simple.
 
 zim is an try make reduce4's best ideas to the world.
+
+## architecture
+
+- react
+  - zim application layer
+- slate.js
+  - zim kernal
+- leafer.js
+  - zim canvas render backend
+- coc.nvim
+  - zim lsp complete
+- pnpm(workspace)
+  - monorepo
+- zps
+  - zim plugin system
+- vscode remote
+  - zim backend design
+- ant design
+  - zui design goal
