@@ -2,7 +2,7 @@
 
   <p align="center">Make your Vim/Neovim as smart as VS Code</p>
   <p align="center">
-    <a href="LICENSE"><img alt="Software License" src="https://github.com/happysmile12321/zim/blob/main/LICENSE"></a>
+    <a href="LICENSE"><img alt="Software License" src="LICENSE"></a>
   </p>
 
 zim is `z` and `vim`.
