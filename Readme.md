@@ -34,3 +34,13 @@ zim is an try make reduce4's best ideas to the world.
   - zim backend design
 - ant design
   - zui design goal
+
+## development
+
+### zui
+
+zui is the ui library for zim.
+
+```sh
+pnpm run ui
+```
