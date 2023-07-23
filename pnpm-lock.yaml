@@ -48,6 +48,15 @@ importers:
         specifier: ^4.4.6
         version: 4.4.6
 
+  packages/zditor-leaferjs:
+    devDependencies:
+      typescript:
+        specifier: ^5.1.6
+        version: 5.1.6
+      vite:
+        specifier: ^4.4.6
+        version: 4.4.6
+
   packages/ziber:
     dependencies:
       zim-AI:

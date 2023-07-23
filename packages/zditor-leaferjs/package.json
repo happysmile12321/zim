@@ -1,0 +1,19 @@
+{
+  "name": "zditor-leaferjs",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^4.4.6"
+  }
+}
