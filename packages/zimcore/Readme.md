@@ -2,7 +2,7 @@
 
 ## Introduction
 
-zimcore is core editor data structure for zim
+zimcore is core editor data structure for zim.
 
 ## Installation
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-zim-leafer is adaptor of leafer, let zim use react
+zim-leafer is adaptor of leafer, let zim use react.
 
 ## Installation
 
