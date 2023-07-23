@@ -1,0 +1,19 @@
+#!/bin/bash
+MUPDF_MOD=mod
+MUPDF_SOURCE=src
+if [ ! -d $MUPDF_SOURCE ] 
+then
+    echo "Downloading mupdf"
+    VERSION=1.20.0
+    curl -s https://mupdf.com/downloads/archive/mupdf-$VERSION-source.tar.gz | tar -xz
+    mv mupdf-$VERSION-source $MUPDF_SOURCE
+fi
+cp -rT $MUPDF_MOD $MUPDF_SOURCE
+
+
+echo "Making"
+make
+
+echo "Copying"
+mv libmupdf.js ../../src/oo/lib/libmupdf.js
+mv libmupdf.wasm ../../src/oo/lib/wasm/libmupdf.wasm

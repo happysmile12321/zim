@@ -1,3 +1,5 @@
 node_modules/
 pnpm-lock.yaml
 yarn.lock
+packages/zps/pdf/lib/emcc/src
+packages/zps/pdf/lib/mupdf/src
