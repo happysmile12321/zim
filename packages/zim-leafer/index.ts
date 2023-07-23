@@ -1,6 +1,6 @@
 import { render } from "./renderer";
+import { Leafer as VDomRoot } from "leafer-ui";
 import {
-  App,
   Rect,
   Ellipse,
   Polygon,
@@ -12,7 +12,6 @@ import {
   Path,
   Pen,
   UI,
-  Leafer,
   Frame,
   Box,
   Group,
@@ -20,7 +19,6 @@ import {
 
 export {
   render,
-  App,
   Rect,
   Ellipse,
   Polygon,
@@ -32,8 +30,8 @@ export {
   Path,
   Pen,
   UI,
-  Leafer,
   Frame,
   Box,
   Group,
+  VDomRoot,
 };

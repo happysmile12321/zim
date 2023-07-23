@@ -15,6 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "slate-react": "^0.97.2",
+    "zim-leafer": "workspace:^",
     "zimcore": "workspace:^",
     "zps": "workspace:^",
     "zui": "^1.10.0"

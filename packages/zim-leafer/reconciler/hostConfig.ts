@@ -54,9 +54,6 @@ export default {
   createInstance(type, newProps, containerInfo) {
     let instance;
     switch (type) {
-      case ComponentTypes.App:
-        instance = new App(newProps);
-        break;
       case ComponentTypes.Rect:
         instance = new Rect(newProps);
         break;
@@ -86,9 +83,6 @@ export default {
         break;
       case ComponentTypes.UI:
         instance = new UI(newProps);
-        break;
-      case ComponentTypes.Leafer:
-        instance = new Leafer(newProps);
         break;
       case ComponentTypes.Frame:
         instance = new Frame(newProps);

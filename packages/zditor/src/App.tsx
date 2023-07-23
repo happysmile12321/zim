@@ -1,29 +1,15 @@
-import React, { useEffect, useRef } from "react";
-
+import { Rect } from "zim-leafer";
 const App: React.FC = () => {
-  const ref = useRef(null);
-  useEffect(() => {
-    const keyHandler = (e: KeyboardEvent) => {
-      const key = e.key;
-      // switch (key) {
-      //   case
-      // }
-    };
-
-    (document as Document).addEventListener("keypress", keyHandler);
-    return () =>
-      (document as Document).removeEventListener("keydown", keyHandler);
-  }, []);
   return (
-    <div
-      ref={ref}
-      style={{
-        width: "100vw",
-        height: "100vh",
+    <Rect
+      {...{
+        width: 100,
+        height: 100,
+        x: 100,
+        y: 100,
+        stroke: "red",
       }}
-    >
-      zditor
-    </div>
+    ></Rect>
   );
 };
 export default App;
