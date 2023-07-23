@@ -49,6 +49,10 @@ importers:
         version: 4.4.6
 
   packages/zditor-leaferjs:
+    dependencies:
+      leafer-ui:
+        specifier: 1.0.0-beta.6
+        version: 1.0.0-beta.6
     devDependencies:
       typescript:
         specifier: ^5.1.6

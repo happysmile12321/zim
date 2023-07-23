@@ -11,7 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "leafer-ui": "1.0.0-beta.6"
+  },
   "devDependencies": {
     "typescript": "^5.1.6",
     "vite": "^4.4.6"
