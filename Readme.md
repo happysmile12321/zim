@@ -1,9 +1,8 @@
 # zim
 
-  <p align="center">Make your Vim/Neovim as smart as VS Code</p>
-  <p align="center">
-    <a href="LICENSE"><img alt="Software License" src="LICENSE"></a>
-  </p>
+  <p align="center">Make you a better vim</p>
+
+![LICENSE](LICENSE)
 
 zim is `z` and `vim`.
 
