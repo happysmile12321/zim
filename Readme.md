@@ -2,7 +2,7 @@
 
   <p align="center">Make you a better vim</p>
 
-![LICENSE](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/happysmile12321/zim)](https://github.com/happysmile12321/zim/blob/master/LICENSE)
 
 zim is `z` and `vim`.
 
